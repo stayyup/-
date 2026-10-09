@@ -27,3 +27,9 @@
 .ceremony-music .track-copy small{font-size:.7rem}
 .ceremony-music .player-shell{margin-top:.75rem}
 .ceremony-music .music-note{font-size:.72rem;margin:.7rem 0 0}
+
+
+/* Wedding memory photo board */
+.wedding-photo-board{margin:1.5rem 0 2rem;padding:.65rem;border:1px solid rgba(218,180,126,.35);border-radius:18px;background:linear-gradient(145deg,rgba(255,255,255,.07),rgba(255,255,255,.02));box-shadow:0 18px 50px rgba(0,0,0,.22)}
+.wedding-photo-board img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:11px}
+.wedding-photo-board figcaption{padding:.75rem .35rem .2rem;text-align:center;color:#d8c2a2;font-size:.78rem;letter-spacing:.06em;line-height:1.7}
