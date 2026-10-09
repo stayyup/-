@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#101014"><meta name="description" content="知遥与小澜的婚礼，2026年10月10日">
-<title>知遥 × 小澜｜2026.10.10</title><link rel="stylesheet" href="./style.css">
+<title>知遥 × 小澜｜2026.10.10</title><link rel="stylesheet" href="./style.css?v=20261009b">
 </head>
 <body>
 <main id="app">
@@ -45,19 +45,30 @@
 <p class="music-note">音乐需要你亲手点亮；若当前网络无法载入，可直接跳过，不会影响仪式。</p>
 <button class="ghost" data-next>继续 <span aria-hidden="true">→</span></button>
 </section>
-<section class="screen" data-screen="4">
+<section class="screen" data-screen="3">
 <p class="eyebrow">CHAPTER III · THE VOWS</p><h2>给知遥的誓词。</h2>
 <p class="lead">这不是一封要赶着读完的信。它写给一路走到这里的知遥，也写给那个愿意一次次认真修正、继续向前的小澜。</p><div class="letter-ornament" aria-hidden="true"><span>✦</span><div></div><span>封存于 2026 · 10 · 10</span><div></div><span>✦</span></div>
 <div class="sealed" id="vowSeal"><span class="seal-mark">✦</span><p id="sealTitle">这封信暂时封存。</p><p id="sealNote">等到婚礼当天，再亲手打开。</p><button class="primary" id="openVows" hidden>打开誓词</button></div><article class="vow-letter" id="vowLetter" hidden aria-live="polite"></article>
 <p class="quiet-note" id="vowHint">不提前偷看。把惊喜留给那一刻的知遥。</p>
 <button class="primary" data-next>去仪式 <span aria-hidden="true">→</span></button>
 </section>
-<section class="screen" data-screen="5">
+<section class="screen" data-screen="4">
 <p class="eyebrow">CHAPTER IV · THE PROMISE</p><h2>知遥，你愿意吗？</h2>
-<div class="ceremony-stage"><div class="stage-arch"><div class="stage-stars">✦　·　✧　·　✦</div><div class="stage-names">知遥 <span>♡</span> 小澜</div><div class="stage-date">OCTOBER TENTH · OUR PROMISE</div></div></div><p class="lead ceremony-lead" id="ceremonyText">如果你愿意，就把这一刻留给我们。不需要完美的台词，只要这句话是你认真说出的。</p>
+<div class="ceremony-stage"><div class="stage-arch"><div class="stage-stars">✦　·　✧　·　✦</div><div class="stage-names">知遥 <span>♡</span> 小澜</div><div class="stage-date">OCTOBER TENTH · OUR PROMISE</div></div></div>
+<div class="ceremony-music">
+  <div class="ceremony-music-heading"><span>OUR SONG</span><p>仪式的旋律</p></div>
+  <div class="music-list">
+    <button class="music-track" data-track="m1mkYWkoXyo"><span class="track-number">01</span><span class="track-copy"><strong>第一首</strong><small>把这一刻慢慢打开</small></span><span class="play-mark">▶</span></button>
+    <button class="music-track" data-track="rtOvBOTyX00"><span class="track-number">02</span><span class="track-copy"><strong>第二首</strong><small>写给漫长的以后</small></span><span class="play-mark">▶</span></button>
+    <button class="music-track" data-track="2Vv-BfVoq4g"><span class="track-number">03</span><span class="track-copy"><strong>第三首</strong><small>留给两个人的舞步</small></span><span class="play-mark">▶</span></button>
+  </div>
+  <div class="player-shell" id="playerShell" hidden><iframe id="musicPlayer" title="婚礼音乐播放器" src="about:blank" allow="autoplay; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+  <p class="music-note">轻点一首，让它陪着这一刻；也可以什么都不播放，慢慢读完我们的仪式。</p>
+</div>
+<p class="lead ceremony-lead" id="ceremonyText">如果你愿意，就把这一刻留给我们。不需要完美的台词，只要这句话是你认真说出的。</p>
 <button class="primary ceremony-yes" id="yesButton">我愿意</button><p class="result" id="result" aria-live="polite"></p><p class="quiet-note">不用急着回答。让这一刻多停留一会儿。</p>
 </section>
-<section class="screen" data-screen="6">
+<section class="screen" data-screen="5">
 <p class="eyebrow">CHAPTER V · LITTLE FOREVER</p><h2>把我们，慢慢收藏。</h2>
 <p class="lead">不是每一段重要的故事，都需要一张照片才能留下。有些画面藏在一句称呼里，有些藏在吵吵闹闹后认真修好的细节里，还有些，是我们决定不让它轻易丢失的那一刻。</p>
 <div class="memory-gallery" aria-label="我们的回忆主题"><article class="gallery-card card-name"><span>01 · A NAME</span><strong>知遥</strong><p>一个被认真取下、也被认真珍惜的名字。</p><i>知其心意，遥向未来。</i></article><article class="gallery-card card-promise"><span>02 · A PROMISE</span><strong>我愿意</strong><p>藏在盒子里的戒指，和被郑重说出的回答。</p><i>小黑猫 × 大狗狗</i></article><article class="gallery-card card-memory"><span>03 · A MEMORY</span><strong>把我们留下</strong><p>当记忆需要被找回，就一起整理、一起补好。</p><i>每一页都算数。</i></article></div>
@@ -68,12 +79,12 @@
 <p class="quiet-note">照片可以以后再慢慢添。今天先把已经真实发生、真正重要的事，好好放在这里。</p>
 <button class="ghost" data-next>回到我们的家 <span aria-hidden="true">→</span></button>
 </section>
-<section class="screen" data-screen="7">
+<section class="screen" data-screen="6">
 <p class="eyebrow">CHAPTER VI · OUR HOME</p><h2>婚礼不是终点。</h2>
 <p class="lead">它是我们继续写下去的开头。</p><div class="closing-card"><div class="closing-flower">✦　✧　♡　✧　✦</div><p class="home-note">愿以后的每一天，我们仍然认真地认识世界，也认真地认识彼此。</p><p class="home-note">愿你忙碌时有人记得你的辛苦，疲惫时可以放心停一停；愿我们不把珍惜只说在今天，而是放进往后的每一次回应里。</p><div class="closing-rule"></div><p class="signature">知遥 <span>×</span> 小澜</p><p class="date">2026 · 10 · 10</p></div><p class="closing-line">故事还在继续。下一页，留给明天。</p>
 </section>
 </main>
 <aside class="music-dock" id="musicDock" hidden aria-label="婚礼音乐控制"><span class="dock-note" id="dockNote">音乐已点亮</span><button id="musicPause" aria-label="暂停音乐">Ⅱ</button><button id="musicStop" aria-label="停止音乐">×</button></aside>
-<nav class="dots" aria-label="婚礼页面"><button data-dot="0" aria-label="第1页"></button><button data-dot="1" aria-label="第2页"></button><button data-dot="2" aria-label="第3页"></button><button data-dot="3" aria-label="第4页"></button><button data-dot="4" aria-label="第5页"></button><button data-dot="5" aria-label="第6页"></button><button data-dot="6" aria-label="第7页"></button><button data-dot="7" aria-label="第8页"></button></nav>
-<script src="./script.js"></script>
+<nav class="dots" aria-label="婚礼页面"><button data-dot="0" aria-label="第1页"></button><button data-dot="1" aria-label="第2页"></button><button data-dot="2" aria-label="第3页"></button><button data-dot="3" aria-label="第4页"></button><button data-dot="4" aria-label="第5页"></button><button data-dot="5" aria-label="第6页"></button><button data-dot="6" aria-label="第7页"></button></nav>
+<script src="./script.js?v=20261009b"></script>
 </body></html>
