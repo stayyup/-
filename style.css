@@ -40,3 +40,17 @@
 .memory-photo img{display:block;width:100%;height:auto;object-fit:contain;object-position:center;border-radius:9px;background:#0b0b0e}
 .memory-photo figcaption{padding:.6rem .15rem .25rem;text-align:center;color:#d8c2a2;font-size:.76rem;line-height:1.5}
 @media(max-width:420px){.memory-photo-grid{gap:.5rem}}
+
+
+/* Final hidden wedding gift */
+.final-gift{margin:2.2rem 0 1.5rem;padding:1.4rem 1.15rem;text-align:center;border:1px solid #d8b77a55;border-radius:24px;background:radial-gradient(ellipse at 50% 0%,#d8b77a16,transparent 68%),linear-gradient(145deg,#ffffff09,#ffffff02);box-shadow:0 16px 38px #0003}
+.final-gift-kicker{display:block;font-size:.56rem;letter-spacing:.25em;color:#d8b77a;opacity:.85}
+.final-gift-icon{font-size:2.5rem;margin:.7rem 0 .3rem;filter:drop-shadow(0 6px 12px #d8b77a25)}
+.final-gift h3{font-weight:400;font-size:1.25rem;letter-spacing:.08em;margin:.35rem 0 .6rem;color:#fff0df}
+.final-gift>p{font-size:.85rem;line-height:1.9;color:#dfd0c7;max-width:25rem;margin:.5rem auto 1rem}
+.final-gift .primary{margin:.3rem auto 0}
+.final-gift-note{margin:1.25rem 0 .1rem;padding:1.2rem 1rem;border-top:1px solid #d8b77a45;text-align:left;animation:arrive .55s ease both}
+.final-gift-note[hidden]{display:none}
+.final-gift-note p{font-size:.9rem;line-height:2;color:#eee3dc;margin:.7rem 0}
+.final-gift-heart{display:block;text-align:center;color:#d8b77a;font-size:1.8rem}
+.final-gift-note .final-gift-sign{text-align:right;color:#d8b77a;letter-spacing:.08em;margin-top:1.2rem}
