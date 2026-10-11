@@ -41,6 +41,16 @@
 .memory-photo figcaption{padding:.6rem .15rem .25rem;text-align:center;color:#d8c2a2;font-size:.76rem;line-height:1.5}
 @media(max-width:420px){.memory-photo-grid{gap:.5rem}}
 
+/* Keep the existing portraits uncropped and avoid enlarging small source files. */
+.memory-photo-grid{grid-template-columns:1fr;max-width:34rem;margin:1.25rem auto 1.5rem;gap:1rem}
+.memory-photo{display:flex;flex-direction:column;align-items:center}
+.memory-photo img{width:auto;height:auto;max-width:100%;max-height:560px;object-fit:contain;object-position:center}
+.memory-milestones{display:grid;grid-template-columns:1fr;gap:.7rem;margin:1.2rem 0 1.6rem}
+.memory-milestones article{padding:1rem 1.05rem;border:1px solid #d8b77a30;border-radius:14px;background:linear-gradient(135deg,#ffffff08,#ffffff02)}
+.memory-milestones span{display:block;margin-bottom:.35rem;color:#d8b77a;font-size:.72rem;letter-spacing:.12em}
+.memory-milestones p{margin:0;color:#e8d9d0;font-size:.86rem;line-height:1.9}
+@media(min-width:700px){.memory-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}.memory-photo img{max-height:620px}}
+
 
 /* Final hidden wedding gift */
 .final-gift{margin:2.2rem 0 1.5rem;padding:1.4rem 1.15rem;text-align:center;border:1px solid #d8b77a55;border-radius:24px;background:radial-gradient(ellipse at 50% 0%,#d8b77a16,transparent 68%),linear-gradient(145deg,#ffffff09,#ffffff02);box-shadow:0 16px 38px #0003}
